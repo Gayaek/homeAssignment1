@@ -1,0 +1,216 @@
+body{
+    background-color: BF3131;
+    /* font-family: sans-serif; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-size-adjust: 100%;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url(./chillibackg.png);
+    padding: 100px;
+    text-align: center;
+    background-attachment: fixed;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: large;
+    row-gap: 16px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    box-shadow: 0 0 5px;
+    padding: 10px;    
+}
+nav ul li:hover{
+    transform: scale(1.05);
+}
+nav ul li a{
+    color: rgb(153, 144, 144);
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+#All-About-Chilli{
+    background-color:FAEED1;
+    padding:40px ;
+    box-sizing: border-box;
+    display: table;
+    height: 547.2px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-height: 547.2px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 131px;
+    table-layout: fixed;
+    text-align:center;
+    text-size-adjust: 100%;
+}
+
+.AllAboutChilliContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.AllAboutChilliContainer img{
+    max-width: 200px;
+    margin: 50px;
+    border-radius: 6px;
+}
+
+.AllAboutChilliContainer div{
+    text-align:left;
+}
+
+#Recipes{
+    background-color: F9E8D9;
+    padding: 40px;
+    display: table;
+    height: 547.2px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-height: 547.2px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 131px;
+    table-layout: fixed;
+    text-align:center;
+    text-size-adjust: 100%;
+}
+
+.RecipesContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+}
+
+.RecipesContainer img{
+    width: 300px;
+    height: 300x;
+    margin: 25px;
+    border-radius: 6px;
+}
+
+.RecipesContainer div{
+    text-align: left;
+}
+.RecipesContainer div img{
+    width: 300px;
+    height: 200px; 
+}
+ #FruitOrVeg{
+    background-color:E6BAA3;
+    padding: 40px;
+    display: table;
+    height: 547.2px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-height: 547.2px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 131px;
+    table-layout: fixed;
+    text-align:center;
+    text-size-adjust: 100%;
+ }
+ .ChilliFruit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+ }
+ .ChilliFruit img{
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+ }
+ .ChilliFruit div{
+    text-align: left;
+ }
+ .sec3Photos{
+    display: flex;
+    justify-content:space-evenly;
+ }
+
+ .sec3Photos figcaption{
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+ }
+
+ #FunFacts {
+    background-color:E4DEBE;
+    gap: 16px;
+    padding: 40px;
+ }
+ .cardsec{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:start;
+    gap: 10px;
+    flex-direction: row;
+    padding: 30px;
+ }
+  
+.card{
+    width: 200px;
+    height: 320px; 
+    margin: 5px;
+    padding: 5px;
+    background-color: 739072;
+    border: 1px solid #fe2929;
+    border-radius: 7px;
+    transition: transform 0.5s;
+    overflow: hidden;  
+}
+.card img{
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.cardsec .card div{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+footer{
+    padding: 50px;
+    background-image: url(./chillibackgnew.png);
+    text-align: center;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
